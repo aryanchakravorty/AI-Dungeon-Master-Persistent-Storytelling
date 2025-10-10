@@ -45,7 +45,7 @@ The system follows a modular design for clarity, efficiency, and scalability.
 
 For a deep dive into the methodology, memory design, implementation challenges, and evaluation, please see our full technical report.
 
-**[file:///C:/Users/admin/Downloads/Technical_Report.pdf]**
+file:///C:/Users/admin/Downloads/Technical_Report.pdf
 
 ---
 

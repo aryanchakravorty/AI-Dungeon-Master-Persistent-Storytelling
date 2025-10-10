@@ -91,12 +91,14 @@ Open and run the `ai_dungeon_master.ipynb` notebook using Jupyter Notebook or VS
 ---
 
 ### 📂 File Structure
+```text
 .
 ├── ai_dungeon_master.ipynb     # The main Jupyter Notebook with the full implementation.
 ├── Technical_Report.pdf        # The 2-4 page technical report.
 ├── requirements.txt            # A list of all Python dependencies.
 ├── .gitignore                  # To exclude unnecessary files from Git.
 └── README.md                   # You are here!
+
 ---
 
 ### 👥 Team Members

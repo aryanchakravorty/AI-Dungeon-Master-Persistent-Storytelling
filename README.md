@@ -51,3 +51,65 @@ The architecture is modular and designed for efficiency, clarity, and scalabilit
 5. **State Update:** Summarizes and stores key events in persistent memory.
 6. **Narrative Output:** Presents the next part of the story to the player.
 
+Player → Memory Processor → RAG Context → LLM → Game State Update → Story Output
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Git
+
+### Installation
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-Dungeon-Master-Persistent-Storytelling.git
+cd AI-Dungeon-Master-Persistent-Storytelling
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+Configuration
+
+Create a .env file in the root directory:
+
+GROQ_API_KEY="your_api_key_here"
+
+Run the Project
+jupyter notebook ai_dungeon_master.ipynb
+
+
+Follow the notebook instructions to start your AI-driven adventure.
+
+📂 Project Structure
+.
+├── ai_dungeon_master.ipynb     # Main implementation notebook
+├── Technical_Report.pdf        # Full technical report
+├── requirements.txt            # Dependencies
+├── .gitignore                  # Ignored files
+└── README.md                   # Project documentation
+
+👥 Team
+
+[Your Name]
+
+[Your Teammate’s Name] (if applicable)
+
+📚 References
+
+For detailed methodology, memory design, and evaluation, see the Technical Report PDF linked above.
+
+🧩 Keywords
+
+AI Dungeon Master • RAG • Memory-Augmented LLM • Storytelling • Groq • Long-Term Coherence • Python
+
+
+---
+
+### 💡 Optional (if you want to stand out further)
+You can also add a **“📸 Screenshots”** section like this (just before *System Architecture*):
+```markdown
+## 📸 Screenshots
+Here’s a glimpse of the AI Dungeon Master in action:
+![Gameplay Screenshot](assets/demo_screenshot.png)

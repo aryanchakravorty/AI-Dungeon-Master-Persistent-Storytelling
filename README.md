@@ -45,7 +45,7 @@ The system follows a modular design for clarity, efficiency, and scalability.
 
 For a deep dive into the methodology, memory design, implementation challenges, and evaluation, please see our full technical report.
 
-**[Link to your Technical Report PDF: AI_Dungeon_Master_Technical_Report.pdf]**
+**[file:///C:/Users/admin/Downloads/Technical_Report.pdf]**
 
 ---
 
@@ -62,7 +62,7 @@ Follow these instructions to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/YOUR_USERNAME/AI-Dungeon-Master-Persistent-Storytelling.git](https://github.com/YOUR_USERNAME/AI-Dungeon-Master-Persistent-Storytelling.git)
+    git clone https://github.com/naveenthumati95/AI-Dungeon-Master-Persistent-Storytelling.git
     cd AI-Dungeon-Master-Persistent-Storytelling
     ```
 
@@ -80,7 +80,7 @@ Follow these instructions to set up and run the project locally.
 4.  **Set up environment variables:**
     Create a `.env` file in the root directory and add your API keys (e.g., for Groq).
     ```
-    GROQ_API_KEY="YOUR_API_KEY_HERE"
+    GOOGLE_API_KEY="YOUR_API_KEY_HERE"
     ```
 
 #### Usage

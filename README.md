@@ -1,117 +1,62 @@
-# AI Dungeon Master for Persistent Storytelling
+# 🧙‍♂️ AI Dungeon Master for Persistent Storytelling
 
-![Inter IIT Tech Meet 14.0](https://img.shields.io/badge/Event-Inter%20IIT%20Tech%20Meet%2014.0-blue)
+![Event](https://img.shields.io/badge/Event-Inter%20IIT%20Tech%20Meet%2014.0-blue)
 ![Language](https://img.shields.io/badge/Language-Python-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-[cite_start]An intelligent AI Dungeon Master designed for the Inter IIT Tech Meet 14.0 AI/ML Bootcamp. [cite: 1, 3] [cite_start]This project tackles the challenge of long-term coherence in LLM-driven narratives by implementing a robust, dual-component memory architecture. [cite: 9, 11] [cite_start]The system is designed to act as a true Dungeon Master, remembering player choices, maintaining world consistency, and weaving an engaging, persistent story across dozens of turns. [cite: 8, 17]
+An intelligent AI Dungeon Master built for **Inter IIT Tech Meet 14.0 (AI/ML Bootcamp)**.  
+This system focuses on **long-term narrative coherence** using a **dual-memory architecture**, enabling immersive, persistent storytelling across long gameplay sessions.
 
 ---
 
-### 🎥 Live Demo
+## 🎮 Demo
 
-[cite_start]Check out a short demonstration of the AI DM's short-term and long-term recall capabilities. 
+Check out a short demonstration of the AI DM’s memory and storytelling capabilities:
 
-**[Link to your Gameplay Recording/Video]**
-
----
-
-### ✨ Core Features
-
-This AI DM was built to meet the core objectives of the problem statement, focusing on memory, stability, and immersion.
-
-* **🧠 Intelligent Memory Architecture:** The core of the project.
-    * [cite_start]**Working Memory (Short-Term):** Accurately retains scene details and player actions over recent turns (~5 turns) to ensure immediate context is never lost. [cite: 20, 37]
-    * [cite_start]**Persistent Memory (Long-Term):** Recalls crucial past events, character details, and world states over extended gameplay (~30 turns) using a Retrieval-Augmented Generation (RAG) approach to maintain narrative consistency. [cite: 21, 23, 38]
-
-* **🌐 Dynamic & Evolving World:** The game world is not static. [cite_start]The AI remembers player decisions and ensures the world and its characters evolve coherently over time. [cite: 8, 17]
-
-* **🤖 Modular LLM Integration:** Built to work with modern Large Language Models. [cite_start]The system can be integrated with self-hosted models via `llama.cpp` or fast external APIs like Groq. [cite: 25]
-
-* [cite_start]**🛡️ Robust and Stable:** Engineered to sustain long gameplay sessions of 30+ turns without crashing or producing incoherent, context-breaking output. [cite: 34]
-
-#### 🏆 Bonus Features Implemented
-
-* [cite_start]**👥 Character Memory:** NPCs remember their previous interactions with the players and evolve their dialogue and behavior accordingly. [cite: 46]
-* [cite_start]**📜 Dynamic Quest Log:** The system automatically tracks player objectives and can reference quest progress to guide the narrative. [cite: 47]
+🔗 **[Gameplay Demo Video](#)**  
+🔗 **[Technical Report PDF](#)**
 
 ---
 
-### ⚙️ System Architecture
+## ✨ Features
 
-[cite_start]The system follows a modular design for clarity, efficiency, and scalability. [cite: 26, 40]
+### 🧠 Dual Memory System
+- **Working Memory (Short-Term):**  
+  Retains immediate scene details and player actions (~5 turns) for responsive storytelling.
+- **Persistent Memory (Long-Term):**  
+  Stores and retrieves key events, world states, and character data (~30 turns) via **Retrieval-Augmented Generation (RAG)** for long-term consistency.
 
-1.  **User Input:** The player's action is received.
-2.  **Memory Processor:** The input is processed. Relevant short-term memories are updated, and the input is used to query the long-term vector database for relevant past events.
-3.  [cite_start]**Context Augmentation (RAG):** The retrieved memories (both short and long-term) are combined with the current prompt to create a rich, context-aware prompt for the LLM. [cite: 23]
-4.  [cite_start]**LLM Generation:** The augmented prompt is sent to the LLM (e.g., Groq) to generate the next part of the story. [cite: 25]
-5.  **State Update:** The generated output updates the game state, and key events are summarized and stored in the persistent memory.
-6.  **Narrative Output:** The final story segment is presented to the player.
+### 🌍 Dynamic Evolving World
+The world evolves logically based on player decisions — NPCs react, locations change, and past choices matter.
 
----
+### 🤖 Modular LLM Integration
+Supports multiple backends:
+- Self-hosted models via `llama.cpp`
+- Cloud APIs like **Groq** for low-latency inference
 
-### 📄 Technical Report
-
-[cite_start]For a deep dive into the methodology, memory design, implementation challenges, and evaluation, please see our full technical report. [cite: 44, 55]
-
-**[Link to your Technical Report PDF: AI_Dungeon_Master_Technical_Report.pdf]**
-
----
-
-### 🚀 Getting Started
-
-[cite_start]Follow these instructions to set up and run the project locally. 
-
-#### Prerequisites
-
-* Python 3.8+
-* Git
-
-#### Installation & Setup
-
-1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/YOUR_USERNAME/AI-Dungeon-Master-Persistent-Storytelling.git](https://github.com/YOUR_USERNAME/AI-Dungeon-Master-Persistent-Storytelling.git)
-    cd AI-Dungeon-Master-Persistent-Storytelling
-    ```
-
-2.  **Create a virtual environment:**
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required dependencies:**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4.  **Set up environment variables:**
-    Create a `.env` file in the root directory and add your API keys (e.g., for Groq).
-    ```
-    GROQ_API_KEY="YOUR_API_KEY_HERE"
-    ```
-
-#### Usage
-
-Open and run the `ai_dungeon_master.ipynb` notebook using Jupyter Notebook or VS Code. Follow the instructions within the notebook to start your adventure!
+### 🛡️ Stability and Coherence
+Optimized for **30+ turns** of continuous play without crashes or loss of narrative logic.
 
 ---
 
-### 📂 File Structure
+## 🏆 Bonus Features
 
-.
-├── ai_dungeon_master.ipynb     # The main Jupyter Notebook with the full implementation. ├── Technical_Report.pdf        # The 2-4 page technical report. 
-├── requirements.txt            # A list of all Python dependencies.
-├── .gitignore                  # To exclude unnecessary files from Git.
-└── README.md                   # You are here! 
+- **👥 Character Memory:**  
+  NPCs remember prior interactions and evolve their dialogue and behavior dynamically.
 
-
-
+- **📜 Dynamic Quest Log:**  
+  The system auto-tracks player objectives, updating quest progress and referencing past goals naturally.
 
 ---
 
-### 👥 Team Members
+## ⚙️ System Architecture
 
-* [Your Name]
-* [Your Teammate's Name] (if applicable) [cite: 4]
+The architecture is modular and designed for efficiency, clarity, and scalability:
+
+1. **Player Input:** User action or dialogue.
+2. **Memory Processor:** Updates short-term memory and retrieves relevant long-term memories.
+3. **Context Augmentation (RAG):** Combines both memory layers with the latest input for LLM processing.
+4. **LLM Generation:** Generates the next narrative segment using the augmented context.
+5. **State Update:** Summarizes and stores key events in persistent memory.
+6. **Narrative Output:** Presents the next part of the story to the player.
+

@@ -24,7 +24,6 @@ This AI DM was built to meet the core objectives of the problem statement, focus
 #### 🏆 Bonus Features Implemented
 
 * **👥 Character Memory:** NPCs remember their previous interactions with the players and evolve their dialogue and behavior accordingly.
-* **📜 Dynamic Quest Log:** The system automatically tracks player objectives and can reference quest progress to guide the narrative.
 
 ---
 

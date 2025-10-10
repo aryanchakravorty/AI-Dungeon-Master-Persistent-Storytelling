@@ -97,7 +97,6 @@ Open and run the `ai_dungeon_master.ipynb` notebook using Jupyter Notebook or VS
 ├── requirements.txt            # A list of all Python dependencies.
 ├── .gitignore                  # To exclude unnecessary files from Git.
 └── README.md                   # You are here!
-
 ---
 
 ### 👥 Team Members

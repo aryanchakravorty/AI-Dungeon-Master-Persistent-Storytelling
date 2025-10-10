@@ -81,6 +81,7 @@ Follow these instructions to set up and run the project locally.
     Create a `.env` file in the root directory and add your API keys (e.g., for Groq).
     ```
     GOOGLE_API_KEY="YOUR_API_KEY_HERE"
+    TAVILY_API_KEY="YOUR_API_KEY_HERE"
     ```
 
 #### Usage

@@ -1,6 +1,6 @@
 # AI Dungeon Master for Persistent Storytelling
 
-![Inter IIT Tech Meet 14.0](https://img.shields.io/badge/Event-Inter%20IIT%20Tech%20Meet%2014.0-blue)
+![Inter IIT Tech Meet 14.0](https://img.shields.io/badge/Event-Inter%20IIT%20Tech%20Meet%BootCamp%2014.0-blue)
 ![Language](https://img.shields.io/badge/Language-Python-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 

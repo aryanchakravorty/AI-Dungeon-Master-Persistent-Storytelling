@@ -9,15 +9,6 @@ This system focuses on **long-term narrative coherence** using a **dual-memory a
 
 ---
 
-## 🎮 Demo
-
-Check out a short demonstration of the AI DM’s memory and storytelling capabilities:
-
-🔗 **[Gameplay Demo Video](#)**  
-🔗 **[Technical Report PDF](#)**
-
----
-
 ## ✨ Features
 
 ### 🧠 Dual Memory System

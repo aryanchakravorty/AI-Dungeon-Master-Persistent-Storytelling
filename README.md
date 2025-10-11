@@ -11,7 +11,7 @@ An intelligent AI Dungeon Master designed for the Inter IIT Tech Meet 14.0 AI/ML
 
 Check out a short demonstration of the AI DM's short-term and long-term recall capabilities. 
 
-[view the file](https://drive.google.com/file/d/1AbVibVM9Q59wVCKWmNYqRV4CEQHVU5Q74/view?usp=drive_link)
+[view the file](https://drive.google.com/file/d/1J6FM3J5vCr2LwdM3pcEdNn-H7sn_IwbU/view?usp=sharing)
 
 ---
 

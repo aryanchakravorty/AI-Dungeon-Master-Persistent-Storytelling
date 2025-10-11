@@ -7,6 +7,14 @@ An intelligent AI Dungeon Master designed for the Inter IIT Tech Meet 14.0 AI/ML
 
 ---
 
+### 🎥 Live Demo
+
+Check out a short demonstration of the AI DM's short-term and long-term recall capabilities. 
+
+[view the file](https://drive.google.com/file/d/1AbpjBWn2itFiLNvhX645HjWyvUvFA35n4/view?usp=sharing)
+
+---
+
 ### ✨ Core Features
 
 This AI DM was built to meet the core objectives of the problem statement, focusing on memory, stability, and immersion.

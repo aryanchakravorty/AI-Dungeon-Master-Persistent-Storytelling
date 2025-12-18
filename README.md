@@ -55,7 +55,7 @@ https://drive.google.com/file/d/1J6FM3J5vCr2LwdM3pcEdNn-H7sn_IwbU/view?usp=shari
 
 For detailed methodology, memory design, system architecture, and evaluation results, refer to the full technical report:
 
-https://drive.google.com/file/d/1hmGbxDA8xb_eX9uxctse224pD_Y1vCO9/view?usp=drive_link
+[https://drive.google.com/file/d/1hmGbxDA8xb_eX9uxctse224pD_Y1vCO9/view?usp=drive_link](https://drive.google.com/file/d/1TpbStUP17lMWx97vcJoxxAeOvSE83nD5/view?usp=sharing)
 
 ---
 

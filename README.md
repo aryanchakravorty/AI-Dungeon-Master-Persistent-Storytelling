@@ -1,8 +1,5 @@
 # AI Dungeon Master for Persistent Storytelling
 
-![Language](https://img.shields.io/badge/Language-Python-brightgreen)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
 An intelligent AI Dungeon Master developed for the Inter IIT Tech Meet 14.0 AI/ML Bootcamp, focused on solving the challenge of long-term narrative coherence in LLM-driven storytelling.  
 The system employs a dual-memory architecture to track player choices, world state, and character evolution, enabling immersive and consistent role-playing experiences across extended gameplay sessions.
 
